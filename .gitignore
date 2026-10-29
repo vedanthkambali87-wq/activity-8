@@ -1,0 +1,15 @@
+.vercel
+
+# Local dependencies and generated output
+node_modules/
+dist/
+.vite/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Local archives and compiled binaries
+*.exe
+/digital-notice-board.zip
